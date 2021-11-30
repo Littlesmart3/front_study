@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta charset="UTF-8" />
     <title>微信扫码登录</title>
     <!-- 引入微信扫码登录js文件 -->
     <script
@@ -20,13 +21,11 @@
   </body>
   <script type="text/javascript">
     var obj = new WxLogin({
-      self_redirect: true,
+      // self_redirect: true,
       id: 'login_container',
       appid: 'wxbdc5610cc59c1631',
       scope: 'snsapi_login',
-      redirect_uri: encodeURIComponent(
-        'http://' + window.location.host + '/...'
-      ),
+      redirect_uri: encodeURIComponent('https://www.admin.littlesmart3.top'),
       state: Math.ceil(Math.random() * 1000),
       style: 'black',
       href: 'data:text/css;base64,LmltcG93ZXJCb3ggLnFyY29kZSB7d2lkdGg6IDIwMHB4O30NCi5pbXBvd2VyQm94IC50aXRsZSB7ZGlzcGxheTogbm9uZTt9DQouaW1wb3dlckJveCAuaW5mbyB7d2lkdGg6IDIwMHB4O30NCi5zdGF0dXNfaWNvbiB7ZGlzcGxheTogbm9uZX0NCi5pbXBvd2VyQm94IC5zdGF0dXMge3RleHQtYWxpZ246IGNlbnRlcjt9',
