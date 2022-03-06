@@ -1,0 +1,31 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/step/first/index",
+			"style": {
+				"navigationBarTitleText": "包小盒智能包装设计"
+			}
+		},
+		{
+			"path": "pages/step/second/index"
+		},
+		{
+			"path": "pages/step/third/index"
+		},
+		{
+			"path": "pages/step/fourth/index"
+		},
+		{
+			"path": "pages/design/list/index"
+		},
+		{
+			"path": "pages/design/detail/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
