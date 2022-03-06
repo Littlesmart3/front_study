@@ -3,6 +3,7 @@
     <Robit :robot-Text="state.robotText" />
     <view class="main">
       <FormList />
+      <Ubtn text="跳过" />
     </view>
   </view>
 </template>
@@ -11,6 +12,7 @@
 import { reactive, ref, toRefs } from 'vue';
 import Robit from '@/components/step/robot.vue';
 import FormList from './components/form-list.vue';
+import Ubtn from '@/components/u-btn.vue';
 import { onReady } from '@dcloudio/uni-app';
 
 const state = reactive({

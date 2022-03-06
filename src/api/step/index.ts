@@ -1,5 +1,5 @@
-import { MAIN_HOST } from '@/constants';
-import { METHOD_MAP } from '@/constants/http';
+import { MAIN_HOST } from '@/plugin';
+import { METHOD_MAP } from '@/plugin/http';
 
 // 接口返回格式
 interface responseType {

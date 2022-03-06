@@ -1,16 +1,8 @@
+
 <template>
-  <view class="u-input">
-    <input
-      class="input"
-      :value="state.currentValue"
-      :placeholder-class="placeholderClass"
-      :type="type"
-      :disabled="disabled"
-      @input="handleInput(state.currentValue)"
-      :placeholder="placeholder"
-    />
-    <view class="right-nums" v-if="maxlength > 0">
-      <text>{{ state.currentValue.length }}/{{ maxlength }}</text>
+  <view class=" u-upload">
+    <view>
+        
     </view>
   </view>
 </template>
@@ -47,7 +39,7 @@ const handleInput = (val: string) => {
 </script>
 
 <style lang="scss" scoped>
-.u-input {
+.u-upload {
   display: flex;
   align-items: center;
   height: 90rpx;

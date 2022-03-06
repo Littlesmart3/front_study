@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 import { reactive } from 'vue';
-import { EYES_IMG_URL } from '@/static/img/url';
+import { EYES_IMG_URL } from '@/constants/img/url';
 import { onReady } from '@dcloudio/uni-app';
 
 // props参数
